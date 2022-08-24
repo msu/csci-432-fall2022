@@ -235,15 +235,15 @@ their own classrooms.
 
 ### Special Remarks and Policies for COVID-19
 
-The instructor requests that you follow the current [CDC
+Please follow the current [CDC
 guidelines](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html),
 which includes wearing a mask or respirator when the "COVID-19 community level"
-is "high".  If you need to miss class due to COVID-19 infection or quarantine (or
-any other reason), please communicate with the instructor as soon as possible in
-order to coordinate a plan for making up the missed classwork.  As a reminder,
-attendance is required.  If the instructor is unable to make it to class, either
-a substitute will be found for those lectures or the class will be held via
-Zoom.
+is "high".  If you need to miss class to quarantine or isolate due to COVID-19
+(or for any other reason), please communicate with the instructor as soon as
+possible in order to coordinate a plan for making up the missed classwork.  As a
+reminder, attendance is required.  If the instructor is unable to make it to
+class, either a substitute will be found for those lectures or the class will be
+held via Zoom.
 
 ## MSU Policies
 
@@ -278,7 +278,6 @@ Conduct.  This includes the following academic expectations:
 - Act in a respectful manner toward other students and the instructor and in a
   way that does not detract from the learning experience; and
 - Make and keep appointments when necessary to meet with the instructor. 
-
 
 ### MSU Drug and Alcohol Policies
 
