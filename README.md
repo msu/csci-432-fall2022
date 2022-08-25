@@ -353,7 +353,6 @@ Each week, we assign:
 - Reading:  Chapter 2
 
 ### Week 5 (19,21,23 September)
-- Exam on Wednesday!
 - Topics: Dynamic Programming
 - Reading: Chapter 3
 
@@ -380,7 +379,6 @@ Each week, we assign:
 - Reading: Chapter 7 
 
 ### Week 11 (31 October; 2,4 November)
-- Exam on Wednesday!
 - Topics: MST and SSSP 
 - Reading: Chapter 8 
 
