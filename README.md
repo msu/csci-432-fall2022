@@ -335,18 +335,17 @@ Each week, we assign:
 ## Schedule
 
 ### Week 1 (24, 26 August)
-- Topics: Intro to Analysis of Algorithms; Induction; Asymptotic Notation 
-- Reading: Chapter 0 
+- Topics: Intro to Analysis of Algorithms; Induction.
 - Additional Reading: [Induction Review](https://www.cs.montana.edu/brittany/teaching/algorithms/15_fall/docs/induction.pdf)
 
 ### Week 2 (29,31 August; 2 September)
-- Topics: Recursion: Runtime and Correctness 
-- Reading: Appendix II; Chapter 1
+- Topics: Asymptotic Notation. 
+- Reading: Chapter 0 
 
 ### Week 3 (7,9 September)
 - Monday (5 September) is Labor day. No class.
-- Topics: More Recursion: Correctness and Master Theorem 
-- Reading: Appendix II; Chapter 1
+- Topics: Recursion: Correctness, Runtime, Runtime, and Master Theorem 
+- Reading: Chapter 1
 
 ### Week 4 (12,14,16 September)
 - Topics: Proof of Termination; Backtracking
