@@ -5,7 +5,7 @@ investigate a problem that can be solved by an algorithm.
 
 By the end of the day tomorrow (13 September 2022), please submit a short
 writ-eup that defines the problem (the "WHAT").  Be sure to include proper
-references for any external resources that you use.  Don't hesitte to define
+references for any external resources that you use.  Don't hesitate to define
 variables to make defining the problem more precise (and easier to write down!)
 The problem statement should specify what the input and the output of the
 solution(s) should be.
