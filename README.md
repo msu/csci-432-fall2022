@@ -146,7 +146,7 @@ Your grade for this class will be determined by:
   The submission should be typeset in LaTex using the provided template, and
   submitted as a PDF both in D2L and Gradescope.
 * Project: Groups will be assigned.  The final product will be a video.  More
-  details to come.
+  details to come. All deliverables are expected to be submitted in PDF form.
 * Exams: We will have three exams in this course. Each exam will be 10% of the
   grade, with the best exam counting an additional 5%.
 
