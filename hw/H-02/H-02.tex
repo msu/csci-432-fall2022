@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage{../fasy-hw}
+
+%% UPDATE these variables:
+\renewcommand{\hwnum}{1}
+\title{Advanced Algorithms, Homework \hwnum}
+\author{\todo{Your Name Here}}
+\date{due: 28 September 2022}
+
+\begin{document}
+
+\maketitle
+
+This homework assignment should be
+submitted as a single PDF file to D2L.
+
+General homework expectations:
+\begin{itemize}
+    \item Homework should be typeset using LaTex.
+    \item Answers should be in complete sentences and proofread.
+    \item You will not plagiarize, nor will you share your written solutions
+        with classmates.
+    \item List collaborators at the start of each question using the
+        \texttt{collab} command.
+    \item Put your answers where the \texttt{todo} command currently is (and
+        remove the \texttt{todo}, but not the word \texttt{Answer}).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Redo!}
+You've seen this problem before, and have feedback from the prior submission.
+Even if you earned a high pass (HP) on this problem, be sure to carefully read
+through and improve upon your previous submission.  Expectations are higher on a
+redo than on the first submission.
+
+Prove using induction that the closed form of:
+$$T(n) = \begin{cases}
+            1        & n=1\\
+            T(n-1)+n & n>1
+         \end{cases}
+$$
+is $O(n^2)$.
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Closed Form of Recurrence Relations}
+
+What is the closed form of the following recurrence relation:
+$$ T(n) = \begin{cases}
+            1        & n=1\\
+            3T(n-1)+2 & n>1
+         \end{cases}
+$$
+Explain how you found the closed form, and prove that it is correct.
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Solving Recurrence Relations in Asymptotic Form}
+
+What is the asymptotic form of the following recurrence relations?  Use Master's
+theorem to justify your answers:
+\begin{enumerate}
+    \item $T(n) = 16 T(n/4) + \Theta(n)$
+    \item $T(n) = 2 T(n/2) + n \log{n}$
+    \item $T(n) = 6 T(n/3) + n^2 \log{n}$
+    \item $T(n) = 4 T(n/2) + n^2$
+    \item $T(n) = 9 T(n/3) + n$
+\end{enumerate}
+Note: we assume that $T(1)=\Theta(1)$ whenever it is not explicitly given.
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
