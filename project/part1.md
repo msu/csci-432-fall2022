@@ -23,3 +23,13 @@ creative!):
 Note: for many of these problems, there exist slight variations that would
 result in different "optimal" solutions, as well as multiple algorithms to solve
 the same problem.
+
+Update: This write-up should be at least one-page long, and can contain
+additional information to help the reader really understand what the problem is.
+For example, you might want to include some examples, references/examples where
+you would need to use this problem, closely related problems or variants of the
+problem, etc. Since this is for the class project, the "WHAT" here should be
+more detailed than you would provdie in a standard homework submission.  If you
+know of any historical context of the problems, it would be good to include that
+as well.  As usual, please cite any external references.  One write-up per
+group, submitted in PDF form.
