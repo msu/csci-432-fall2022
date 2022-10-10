@@ -344,47 +344,47 @@ Each week, we assign:
 
 ### Week 3 (7,9 September)
 - Monday (5 September) is Labor day. No class.
-- Topics: Recursion: Correctness, Runtime, Runtime, and Master Theorem 
+- Topics: Recursion: Basics and Runtime
 - Reading: Chapter 1
 
 ### Week 4 (12,14,16 September)
-- Topics: Proof of Termination; Backtracking
-- Reading:  Chapter 2
+- Topics: Recursion: Master Theorem 
+- Reading:  Chapter 1
 
 ### Week 5 (19,21,23 September)
+- Topics: Recursion; Proof of Termination 
+- Reading: Chapter 1
+
+### Week 6 (25,28,30 September)
+- Topics: Backtracking 
+- Reading: Chapter 2
+
+### Week 7 (3,5,7 October)
 - Topics: Dynamic Programming
 - Reading: Chapter 3
 
-### Week 6 (25,28,30 September)
-- Topics: More Dynamic Programming
-- Reading: Chapter 3
-
-### Week 7 (3,5,7 October)
-- Topics: Greedy Algorithms, Loop Invarints
-- Reading: Chapter 4 
-- Additional Reading: [Gas Stop
-  Problem](https://medium.com/@TheGeekiestOne/greedy-algorithms-the-car-fueling-problem-a35ccc9bb011)
-
 ### Week 8 (10,12,14 October)
-- Topics: Graph Algorithms 
-- Reading: Chapters 5,6 
+- Topics: Loop Invariants and Project (Part 2) 
+- Reading: Handout 
+- **EXAM on Wednesday, 12 Ocotber**
 
 ### Week 9 (17,19,21 October)
-- Topics: Graph Algorithms (cont.)
-- Reading: Chapters 5,6 
+- Topics: More Loop Invariants and Greedy Algorithms
+- Reading: Chapter 4 
+- Additional Reading: [Gas Stop Problem](https://medium.com/@TheGeekiestOne/greedy-algorithms-the-car-fueling-problem-a35ccc9bb011)
 
 ### Week 10 (24,26,28 October)
-- Topics: More Graph Algorithms 
-- Reading: Chapter 7 
+- Topics: Graph Algorithms
+- Reading: Chapters 5,6 
 
 ### Week 11 (31 October; 2,4 November)
-- Topics: MST and SSSP 
-- Reading: Chapter 8 
+- Topics: More Graph Algorithms: MST and SSSP
+- Reading: Chapter 7,8 
 
 ### Week 12 (7,9 November)
 - Friday (11 November) is Veteran's Day. No class.
-- Topics: APSP and Flows
-- Reading: Chapter 9 and 10.1 
+- Topics: APSP
+- Reading: Chapter 9
 
 ### Week 13 (14,16,18 November)
 - Topics: Flows and Cuts
