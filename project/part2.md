@@ -1,6 +1,6 @@
 # CSCI Project, Part 1
 
-In today's class (14 October 2022), you will work in a small group to
+In today's class (Friday, 14 October 2022), you will work in a small group to
 investigate an algorithm.  In particular, you will step through the algorithm in
 detail for a small example.
 
@@ -10,20 +10,23 @@ writ-eup that includes:
 1. Description of the input.
 2. Description of the output.
 3. Pseudocode for the algorithm.  (Can be either your own or a snippet from a
-   paper or book.  If the latter, please fully cite).  Be sure to include line
+   paper, book, or website.  If the latter, please fully cite).  Be sure to include line
    numbers.
 4. Give an example, and walk through the code.  This part can be hand-written or
    written on a board and then included in your document as a picture.
 5. Provide a decrementing function that proves that this terminates. (Proof that
    it is a decrementing function is not necessary).
+6. As usual, a list of references used.  Be sure to explain how you used each
+   reference.
 
 This should be written as a coherent document, not as a bulleted list of
 responses to the items listed above.
 
 I have provided a handwritten example in D2L.  Group assignments can also be
-found in D2L (and the email).
+found in D2L (and the email). Apologies if the handwritting is difficult to
+decipher. I wrote this on a flight.
 
-Problem selections:
+Algorithm Choices:
 
 1. Matrix multiplication: Given two, square real-valued matrices, A and B, compute their
    product AB.
