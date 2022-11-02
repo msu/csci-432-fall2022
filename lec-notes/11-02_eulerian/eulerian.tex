@@ -1,0 +1,128 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{algorithm,algorithmic}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand{\algorithmiccomment}[2]{\hspace{#1}$\triangleright$ {#2} \hfill }
+
+\usepackage{amsfonts}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+\title{Topological Sort: Decrementing Functions and Loop Invariants}
+\author{CSCI 432}
+
+\begin{document}
+\maketitle
+
+\noindent
+Name:\\
+Who did you work with today?
+
+\section*{Eulerian Tour: The Algorithm}
+
+The following algorithm takes as input a graph $G=(V,E)$ with exactly two
+vertices with odd degree, and returns a sequence
+of vertices that define the Eulerian tour.
+
+\begin{algorithm}[h]
+    \caption{FindEulerianTour}
+    %
+    \begin{algorithmic}[1]
+        \REQUIRE a connected graph $G=(V,E)$ such that exactly two vertices have odd
+        degree
+
+        \ENSURE $tour$, a list of $|E|+1$ vertices in G in a total order compatible with
+        the partial order of the DAG.
+
+        \STATE $s,t \gets$ the two vertices of odd degree
+
+        \FOR {$e \in E$}
+            \STATE Add an attribute `$e$.visited' and initialize it to \textsc{False}
+            \STATE Add an attribute `$e$.next' and initialize it to \textsc{Null}
+            \STATE Add an attribute `$e$.prev' and initialize it to \textsc{Null}
+        \ENDFOR
+
+        \STATE $w \gets$ any neighbor of $s$
+
+        \STATE Use DFS to find a path from $s$ to $t$, starting with $(s,w)$,
+        using the `next' and `prev' to store the next edge in the path,  and marking all
+        edges $e$ in the path as $e$.visited=\textsc{True}.
+
+        \WHILE {$\exists e \in E$ such that $e.visited=$\textsc{False}}
+            \STATE $v\gets$ a vertex that already has been seen along the
+                current path from $s$ to $t$ and has an outgoing edge $(v,w) \in
+                E$ such that $(v,w)$.visited is \textsc{False}
+            \STATE $e_1=(v,x) \gets $ a visited edge leaving $v$
+            \STATE $e_2 \gets e_1.$prev
+            \STATE $e_2$.next $\gets (v,w)$
+            \STATE $(v,w).$prev $\gets e_2$
+            \STATE $(v,w)$.visited $\gets$ \textsc{True}
+            \STATE Follow DFS from $w$, updated `next', `prev', and `visited' as
+                appropriate until reaching $v$ again, and using $e_1$ as the
+                `next' edge of the last edge in that new path
+        \ENDWHILE
+
+        \STATE $L \gets$ a list of vertices, initialized to $L=[s]$
+        \STATE $(x,y) \gets (s,w)$
+        \WHILE {$y \neq t$}
+            \STATE Append $y$ to $L$
+            \STATE $(x,y) \gets (x,y)$.next
+        \ENDWHILE
+        \STATE Append $t$ to $L$
+
+        \RETURN $L$
+    \end{algorithmic}
+\end{algorithm}
+
+\pagebreak
+
+Walk through a small example.
+
+\textbf{Answer}
+
+\pagebreak
+\section*{Eulerian Tour: The Decrementing Function}
+
+What is the decrementing function for the first while loop?
+
+\textbf{Answer}
+\vspace{1in}
+
+
+Can you prove that this function is well-defined and decrementing?
+
+\textbf{Answer}
+\vspace{1in}
+
+
+\pagebreak
+\section*{Eulerian Tour: The Loop Invariant}
+
+Here, we investigate partial correctness of the first while loop.  For this loop, what
+are the following statements (start with your best guess, then come back and
+revise if needed):
+
+The loop guard $G$:
+\vspace{0.5in}
+
+The post-condition $Q$:
+\vspace{0.5in}
+
+The pre-condition $P$:
+\vspace{0.5in}
+
+The loop invariant $L=L_i$:
+\vspace{0.5in}
+
+
+Can you use this loop invariant
+to prove partial correctness (Remember, there are three parts to partial
+correctness: Initialization, Maintenance, and End).
+
+\textbf{Answer}
+\vspace{1in}
+
+\end{document}
