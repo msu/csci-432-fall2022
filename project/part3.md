@@ -32,5 +32,5 @@ Algorithm Choices:
    input and output.
 
 By the end of next week (Friday, 11 November 2022), please submit a short
-writ-eup that describes what will be in your proposed video. It is ok to propose
+write-up that describes what will be in your proposed video. It is ok to propose
 multiple options to open a discussion with Dr. Fasy.
