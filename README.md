@@ -395,10 +395,9 @@ Each week, we assign:
 
 ### Week 15 (28,30 November; 2 December)
 - Topics: Randomized Algorithms 
-- Reading: TODO 
 
 ### Week 16 (5,7,9 December)
-- TBD 
+- Special Topic
 
 ### Week 17 (Finals Week)
 - We meet Mnday, 12 December, 14:00-15:50. (TODO: someone must confirm!)
